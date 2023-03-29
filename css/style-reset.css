@@ -1,0 +1,53 @@
+/* Fonts family */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap");
+
+/* Variáveis */
+:root {
+  --font-family-logo: "Alfa Slab One", cursive;
+  --font-family-corpo: "Gentium Plus", serif;
+  --cor-preto: #080808;
+  --cor-cinza: #a4a4a4;
+  --cor-cinza-claro: #f1f1f1;
+  --cor-branco: #f8f8f8;
+  --cor-paleta-1: #220901;
+  --cor-paleta-2: #621708;
+  --cor-paleta-3: #941b0c;
+  --cor-paleta-4: #bc3908;
+  --cor-paleta-5: #f6aa1c;
+}
+
+/* Reset */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: var(--font-family-corpo);
+  color: var(--cor-cinza);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
