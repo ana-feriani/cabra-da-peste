@@ -1,0 +1,157 @@
+/* Cabeçalho */
+.cabecalho__info {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Menu */
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__nav a {
+  display: block;
+  padding: 10px;
+}
+
+/* Slogan*/
+.slogan {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+
+/* Sobre */
+.sobre {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  border-top: 2px solid var(--cor-paleta-4);
+  border-bottom: 2px solid var(--cor-paleta-4);
+  padding: 50px 10px;
+}
+
+.sobre__info {
+  flex: 2 1 400px;
+  margin: 0 10px;
+}
+
+.sobre__img {
+  flex: 1 1 200px;
+  margin: 0 10px;
+  flex-wrap: wrap;
+}
+
+/* Pacotes */
+.pacotes {
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.pacotes__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.pacote__nome {
+  flex: 1 1 175px;
+  margin: 10px;
+}
+
+/*Valores */
+.valores__container {
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.valores__item {
+  flex: 1 1 260px;
+  margin: 10px;
+}
+
+.valores__item span {
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+}
+
+.valores__item ul {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.valores__item li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.valores__item a {
+  display: block;
+}
+
+/* Descrição */
+.descricao {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.descricao__item {
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter__info {
+  flex: 1 1 240px;
+  margin: 0 10px;
+}
+
+.newsletter__form {
+  flex: 2 1 260px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter__form input {
+  flex: 3 1 200px;
+}
+
+.newsletter__form button {
+  flex: 1 1 200px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px 0;
+}
+
+.footer p {
+  flex: 1;
+  margin: 0 10px;
+}
